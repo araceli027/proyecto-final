@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 767px) {
+	[class*="col-"] {
+  width: 100%;
+	}
+
+  #foto {
+  	display: none;
+  }
+
+  .fondo {
+  	background-position: center;
+  }
+}
+
+/** HEADER ◠‿◠ */
+
+header {
+	width: 100%;
+	float: center;
+	display: flex;
+	justify-content: center;
+}
+
+.fondo {
+	background-color: rgb(50, 19, 90);
+	background-image: url(partituras.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+h1 {
+	padding: 60px;
+	font-family: 'Dancing Script', cursive;
+	text-shadow: 2px 2px 2px #735699;
+	font-size: 100px;
+	color: white;
+}
+
+#foto {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	padding: 50px;
+	margin: 53.6px;
+}
+
+/** MENU ◠‿◠ */
+
+.menu ul {
+	text-align: center;
+	padding: 60px;
+}
+
+.menu li {
+	list-style-type: none;
+	display: inline;
+	padding: 10px;
+	border: 6px inset #735699;
+}
+
+/** CONTENIDO DE CV ◠‿◠ */
+
+body {
+	background-color: rgb(167, 147, 194);
+}
+
+.interac {
+  padding: 60px;
+  text-align: center;
+}
+
+.info {
+	border-top: 20px;
+	padding: 20px;
+	text-shadow: 2px 2px 2px #735699;
+	font-size: 70px;
+	background-color: transparent;
+	border: none;
+}
+
+.popover {
+	padding: 10px;
+	color: white;
+	background-color: rgb(115, 86, 153);
+	background-image: linear-gradient(to right, rgb(26, 4, 55) 0%, rgb(50, 19, 90) 50%, rgb(115, 86, 153) 100%);
+	box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+	border-radius: 10px;
+}
+
+.popover-header, .popover-body {
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+
+h2 {
+	text-shadow: 2px 2px 2px #735699;
+	font-size: 40px;
+	border-bottom: 5px dotted #735699;
+}
+
+section, .menu {
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	padding: 40px;
+	font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+p, ul {
+	padding: 40px;
+}
+
+.arriba {
+	color: white; font-size: 30px;
+	line-height: 16px;
+	padding: 20px;
+	border-radius: 10px;
+	border: transparent;
+	font-weight: normal;
+	background-image: linear-gradient(to right, rgb(26, 4, 55) 0%, rgb(50, 19, 90) 50%, rgb(115, 86, 153) 100%);
+	box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+	display: inline-block;
+}
